@@ -18,9 +18,11 @@ def receive_data():
 
     # Create DataFrame
     df = pd.DataFrame(table_data)
+    df1=df
 
     # Print or return the DataFrame for debugging
-    print(df)
+    print(df1)
+
 
     return jsonify({"message": "Data received and converted to DataFrame"})
 
